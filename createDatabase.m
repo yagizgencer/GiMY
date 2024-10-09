@@ -8,7 +8,7 @@ function [] = createDatabase()
     
     %Gets names of all mp3 files in current directory
     tic
-    audioInDir = dir('*.mp3');
+    audioInDir = dir('audioFiles/*.mp3');
     audioNames = {audioInDir.name};
     hashes = []; % To hold all the hashes of stored songs
     filenames = cell(1,length(audioNames));
