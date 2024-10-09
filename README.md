@@ -1,4 +1,4 @@
-# GiMY (Gimme the Song)
+# GiMY (Give Me the Song)
 Music Recognition Using Audio Fingerprint - Semester Project for EE473
 
 Contributors:
